@@ -1,0 +1,27 @@
+{
+  "name": "bjp",
+  "version": "1.0.0",
+  "description": "RSS Reader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vnay92/bjp.git"
+  },
+  "keywords": [
+    "RSS",
+    "reader"
+  ],
+  "author": "Vinay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vnay92/bjp/issues"
+  },
+  "homepage": "https://github.com/vnay92/bjp#readme",
+  "dependencies": {
+    "request": "^2.75.0",
+    "xml2json": "^0.10.0"
+  }
+}
