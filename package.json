@@ -1,5 +1,5 @@
 {
-  "name": "bjp",
+  "name": "bjp-reader",
   "version": "1.0.0",
   "description": "RSS Reader",
   "main": "index.js",
@@ -12,6 +12,7 @@
   },
   "keywords": [
     "RSS",
+    "Client",
     "reader"
   ],
   "author": "Vinay",
@@ -21,6 +22,9 @@
   },
   "homepage": "https://github.com/vnay92/bjp#readme",
   "dependencies": {
+    "body-parser": "^1.15.2",
+    "cron": "^1.1.0",
+    "express": "^4.14.0",
     "request": "^2.75.0",
     "xml2json": "^0.10.0"
   }
