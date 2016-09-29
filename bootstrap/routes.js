@@ -32,6 +32,13 @@ module.exports = function(app) {
      *              ROUTES               *
      ************************************/
 
+    app.get('/', function(req, res) {
+        res.json({
+            status: 'OK',
+            message: 'All OK my man!'
+        });
+    });
+
     var apiRouter = express();
 
     // This would have all the routes starting with /api

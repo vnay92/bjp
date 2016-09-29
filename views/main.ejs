@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BJP - The Much Needed RSS reader for you!</title>
+
+    <!-- CSS (load bootstrap from a CDN) -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-slider.css">
+    <style>
+        body {
+            padding-top: 50px;
+        }
+    </style>
+
+    <!-- scripts -->
+    <script src="/js/libs/jquery.min.js"></script>
+    <script src="/js/master.js" charset="utf-8"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/libs/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        var API_URL = 'http://' + window.location.host + '/api';
+    </script>
+</head>
+
+<body class="container">
+
+    <header>
+        <% include ./partials/header %>
+    </header>
+
+    <main>
+        <%- include('pages/' + page) -%>
+    </main>
+
+    <footer>
+        <% include ./partials/footer %>
+    </footer>
+
+</body>
+
+</html>
