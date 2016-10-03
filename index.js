@@ -26,7 +26,7 @@ var handleErrors = function(error) {
 
         // TODO log to Mongo or something
         Logger.console(logData, 'APP_ERRORS', function(err, status) {
-            process.exit(1);
+            // process.exit(1);
         });
     });
 };
