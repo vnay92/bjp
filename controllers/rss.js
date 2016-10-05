@@ -2,6 +2,8 @@ var client = require(__dirname + '/../helpers/client');
 
 var channels = {
     xkcd: 'http://xkcd.com/rss.xml',
+    channelate: 'http://feeds2.feedburner.com/channelATE',
+    explosm: 'http://feeds.feedburner.com/Explosm',
     google: 'http://www.theverge.com/google/rss/index.xml',
     apple: 'http://www.theverge.com/apple/rss/index.xml',
     toi: 'http://timesofindia.indiatimes.com/rssfeedstopstories.cms',
