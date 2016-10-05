@@ -3,12 +3,11 @@ var client = require(__dirname + '/../helpers/client');
 var toi = 'http://timesofindia.indiatimes.com/rssfeedstopstories.cms';
 
 var transform = function(item) {
-
     // Create a key for the data to be stored
     var hash = crypto
         .createHash('md5')
         .update(JSON.stringify(item))
-        .digest("hex");
+        .digest('hex');
 
     return {
         hash: hash,
