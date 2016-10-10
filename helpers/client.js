@@ -5,13 +5,11 @@ module.exports.feed = function(url, callback) {
     var options = {
         method: 'GET',
         url: url,
-        headers: {
-            'cache-control': 'no-cache'
-        }
     };
 
     request(options, function(error, response, body) {
         if (error) {
+            // callback(error);
             throw new Error(error);
         }
 
